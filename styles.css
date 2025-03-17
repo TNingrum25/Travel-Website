@@ -1,0 +1,226 @@
+/* Base Styles and Styles for portrait phones, below 576px - no Media Query needed */
+
+.container      {
+    max-width: 90%;
+}
+
+.logo {
+        width: 150px;
+        height: 150px;
+        margin-left: 60px;
+}
+
+header  {
+        font-size: 0.8rem;
+        background-color: #648EBB;
+}
+
+p   {
+    font-size: 1rem;
+  
+}
+
+iframe  {
+        width:370px;
+        height:215px;
+}
+
+.references {
+            list-style-type:none;
+}
+
+.background     {
+                position: relative;
+                height: 300px;
+                background-image: linear-gradient(to right, rgba(50,50,50,.5), rgba(200,200,200,.3)), url(images/summer.jpg);
+                background-repeat: no-repeat;
+                margin-bottom: 150px;
+                
+}
+
+.background-text  {
+                position: absolute;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 50px;
+                font-family: 'Inria Sans';
+                font-style: normal;
+                font-size: 1.5rem;
+                color: aliceblue;
+                text-align: center;
+                font-weight: bold;
+}
+
+
+
+.decoration     {
+                width: 100px;
+                height: 100px;
+}
+
+.information    {
+                padding: 20px;
+                text-align: center;
+                font-size: 0.8rem;
+                margin-bottom: 105px;
+}
+
+a          {
+    color: black;
+    font-weight: bold;
+
+}
+
+a:hover    {
+    background-color: black;
+    color: #fff;
+    
+}
+
+.card      {
+            margin: 30px;
+            margin-top: 35px;
+            margin-bottom: 65px;
+            width:350px;
+            border: solid #253C78;
+            background-color: #648EBB;
+}
+
+.card-body  {
+            text-align: center;
+            color: aliceblue;
+            font-size: 1.5rem;
+}
+
+.btn    {
+        background-color: #253C78;
+        color: aliceblue;
+        font-weight: bold;
+}
+
+.card-contact   {
+                width: 350px;
+                height: 300px;
+                margin-top: 35px;
+                margin-bottom: 65px;
+                border: solid #253C78;
+                background-color: #648EBB;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+   
+ }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .card      {
+        width:200px;
+        
+}
+
+.container  {
+           max-width:85%;
+}
+
+iframe  {
+    width:560px;
+    height:315px;
+}
+
+
+
+    
+
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .background     {
+        position: relative;
+        height: 760px;
+        background-image: linear-gradient(to right, rgba(50,50,50,.5), rgba(200,200,200,.3)), url(images/summer.jpg);
+        background-repeat: no-repeat;
+        margin-bottom: 150px;
+        
+}
+
+.background-text  {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -70%);
+        font-family: 'Inria Sans';
+        font-style: normal;
+        font-size: 1rem;
+}
+
+.card      {
+    width:320px;
+}
+
+.container-form {
+    max-width: 45%;
+}
+
+
+
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+    .background-text h1 {
+
+        width: 704px;
+        height: 72px;
+        left: 126px;
+        top: 323px;
+        
+        
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 72px;
+        }
+        
+        .background-text p  {
+        
+        width: 685px;
+        height: 110px;
+        left: 128px;
+        top: 431px;
+        
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        }
+        
+        button  {
+        background-color: #253C78; /* check this again */
+        }
+
+        .card      {
+            width:390px;
+        }
+
+        .card-contact   {
+            width: 460px;
+            height: 330px;
+        }
+            
+
+    
+}
+
+
